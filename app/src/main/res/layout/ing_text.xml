@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ing_card"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_margin="16dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/ing_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ingredients"
+                />
+            <TextView
+                android:id="@+id/ing_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+
